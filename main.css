@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: Ubuntu;}
+
+header {
+    color: white;
+    background-color: #e43b7c;
+    background: rgba(4,235,239,1);
+    background: -moz-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4,235,239,1)), color-stop(100%, rgba(3,120,253,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+    background: linear-gradient(135deg, rgba(4,235,239,1) 0%, rgba(3,120,253,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04ebef', endColorstr='#0378fd', GradientType=1 );
+    color: #fff;
+}
+.wrapper {
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1172px;
+}
+
+h1 {
+    font-size: 37px;
+    margin-top: 147px;
+}
+
+header span {
+    font-size: 59px;
+}
+
+header p {
+    width: 397px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    padding-top: 47px;
+}
+
+.offer {
+    padding-top: 66px;
+}
+
+.btn {
+    color: #2e2a1b;
+    margin-top: 45px;
+    display: block;
+    font-size: 15px;
+    background-color: #ffd429;
+    width: 222px;
+    font-weight: 700px;
+    padding: 22px 26px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 213px;
+    transition: all 0.5s ease;   
+    text-decoration: none;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+
+.desktop {
+    width: 641px;
+    height: 641px;
+}
+
+.learn {
+    background: white;
+    padding-bottom: 120px;
+}
+.learn h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 108px;
+}
+
+.wh{
+    display: flex;
+    text-align: center;
+}
+.wh h3 {
+    font-family: Ubuntu;
+    font-size: 19px;
+    text-align: center;
+}
+
+.wh p {
+    font-family: Ubuntu;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.watch.palma.raketa {
+    display: flex;
+    width: 287px;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+}
+
+#icon1 {
+    text-align: center;
+    padding-bottom: 29px;
+    padding-top: 81px;
+    padding-right: 1ch;
+}
+
+#icon2 {
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 73px;
+    padding-right: 1ch;
+}
+
+#icon3 {
+    text-align: center;
+    padding-bottom: 31px;
+    padding-top: 71px;
+}
+
+.off {
+    background: #ecf3f8;
+    padding-bottom: 106px;
+}
+
+.off h2 {
+    text-align: center;
+    font-family: Ubuntu;
+    padding-top: 104px;
+}
+
+.head2 {
+    font-size: 35px;
+}
+
+form {
+    text-align: center;
+    padding-top: 57px;
+}
+
+input {
+    font-family: Ubuntu;
+    font-size: 15px;
+    border: 1px solid #bbbbbb;
+    background-color: #ffffff;
+    width: 343px;
+    height: 48px;
+    opacity: 0.55;
+    padding-left: 25px;
+    margin: 15px auto;
+    display: block;
+}
+
+.btnn {
+    width: 343px;
+    height: 56px;
+    background-color: #ffd429;
+    font-family: "Montserrat - Black";
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    transition: all 0.5s ease;
+    border: 0;
+}
+
+.btnn:hover {
+    opacity: 0.7;
+}
+
+footer {
+    text-align: center;
+    background-color: #164d7a;
+    color: #ffffff;
+    font-family: "Open Sans";
+    padding: 62px 0;
+}
+
+/*Responsive*/ 
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px){
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .btn {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .wh {
+        flex-direction: column;
+    }
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+/*0 - 576px*/
+@media screen and (max-width: 576px) {
+    header {
+        width: 550px;
+    }
+
+    .desktop {
+        width: 450px;
+        height: 450px;
+    }
+    .btn {
+        width: 200px;
+        
+    }
+    .off {
+        width: 550px;
+    }
+    footer {
+        width: 550px;
+    }
+ 
+}
